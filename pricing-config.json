@@ -3,7 +3,7 @@
   "lastUpdated": "2026-05-15",
   "fixtureTypes": [
     { "key": "fixtures", "label": "Fixtures", "basePrice": 440, "inputKind": "count", "step": 1 },
-    { "key": "coreLights", "label": "Core Lights", "basePrice": 480, "inputKind": "count", "step": 1 },
+    { "key": "coreLights", "label": "Core Lights", "basePrice": 478.83, "inputKind": "count", "step": 1 },
     { "key": "peakLights", "label": "Peak Lights", "basePrice": 540, "inputKind": "count", "step": 1 },
     { "key": "transformers", "label": "Transformers", "basePrice": 1000, "inputKind": "count", "step": 1 },
     { "key": "stripLighting", "label": "Strip Lighting", "basePrice": 100, "inputKind": "ft", "step": 10, "fixturesPerUnit": 4.4 },
