@@ -2,37 +2,182 @@
   "version": "1.0.0",
   "lastUpdated": "2026-05-15",
   "fixtureTypes": [
-    { "key": "fixtures", "label": "Fixtures", "basePrice": 440, "inputKind": "count", "step": 1 },
-    { "key": "peakLights", "label": "Peak Lights", "basePrice": 540, "inputKind": "count", "step": 1 },
-    { "key": "transformers", "label": "Transformers", "basePrice": 1000, "inputKind": "count", "step": 1 },
-    { "key": "stripLighting", "label": "Strip Lighting", "basePrice": 100, "inputKind": "ft", "step": 10, "fixturesPerUnit": 4.4 },
-    { "key": "bistroLighting", "label": "Bistro Lighting", "basePrice": 30, "inputKind": "ft", "step": 10, "fixturesPerUnit": 14.6 },
-    { "key": "coreLights", "label": "Core Lights", "basePrice": 478.83, "inputKind": "count", "step": 1 },
-    { "key": "metalStakes", "label": "Metal Stakes", "basePrice": 40, "inputKind": "count", "step": 1 },
-    { "key": "extraCosts", "label": "Extra Costs", "basePrice": 1, "inputKind": "dollar", "step": 100 },
-    { "key": "moonLights", "label": "Moon Lights", "basePrice": 1000, "inputKind": "count", "step": 1 },
-    { "key": "transformer300", "label": "300W Transformer", "basePrice": 1200, "inputKind": "count", "step": 1 },
-    { "key": "transformer600", "label": "600W Transformer", "basePrice": 1500, "inputKind": "count", "step": 1 },
-    { "key": "smartTransformer", "label": "Smart Transformer", "basePrice": 1800, "inputKind": "count", "step": 1 },
-    { "key": "modularUpgrade", "label": "Modular Upgrade", "basePrice": 75, "inputKind": "count", "step": 1 }
+    {
+      "key": "fixtures",
+      "label": "Fixtures",
+      "basePrice": 440,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "peakLights",
+      "label": "Peak Lights",
+      "basePrice": 540,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "transformers",
+      "label": "Transformers",
+      "basePrice": 1000,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "stripLighting",
+      "label": "Strip Lighting",
+      "basePrice": 100,
+      "inputKind": "ft",
+      "step": 10,
+      "fixturesPerUnit": 4.4
+    },
+    {
+      "key": "bistroLighting",
+      "label": "Bistro Lighting",
+      "basePrice": 30,
+      "inputKind": "ft",
+      "step": 10,
+      "fixturesPerUnit": 14.6
+    },
+    {
+      "key": "coreLights",
+      "label": "Core Lights",
+      "basePrice": 478.83,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "metalStakes",
+      "label": "Metal Stakes",
+      "basePrice": 40,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "extraCosts",
+      "label": "Extra Costs",
+      "basePrice": 1,
+      "inputKind": "dollar",
+      "step": 100
+    },
+    {
+      "key": "moonLights",
+      "label": "Moon Lights",
+      "basePrice": 1000,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "transformer300",
+      "label": "300W Transformer",
+      "basePrice": 1200,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "transformer600",
+      "label": "600W Transformer",
+      "basePrice": 1500,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "smartTransformer",
+      "label": "Smart Transformer",
+      "basePrice": 1800,
+      "inputKind": "count",
+      "step": 1
+    },
+    {
+      "key": "modularUpgrade",
+      "label": "Modular Upgrade",
+      "basePrice": 75,
+      "inputKind": "count",
+      "step": 1
+    }
   ],
   "audioProducts": [
-    { "key": "ultrascapePro", "label": "Ultrascape Pro", "price": 10562 },
-    { "key": "leaConnect4", "label": "Lea Connect - 4", "price": 12071 },
-    { "key": "leaConnect6", "label": "Lea Connect - 6", "price": 15542 },
-    { "key": "vssl", "label": "VSSL", "price": 819 },
-    { "key": "sonosPort", "label": "Sonos Port", "price": 819 },
-    { "key": "sonosAmp", "label": "Sonos Amp", "price": 1223 },
-    { "key": "additionalSpeakers", "label": "Additional Speakers", "price": 717 },
-    { "key": "inGroundSub", "label": "In-Ground Sub", "price": 2214 },
-    { "key": "hardscapeSub", "label": "Hardscape Sub", "price": 2512 },
-    { "key": "audioExtraCosts", "label": "Extra Costs", "price": 1 }
+    {
+      "key": "ultrascapePro",
+      "label": "Ultrascape Pro",
+      "price": 10562
+    },
+    {
+      "key": "leaConnect4",
+      "label": "Lea Connect - 4",
+      "price": 12071
+    },
+    {
+      "key": "leaConnect6",
+      "label": "Lea Connect - 6",
+      "price": 15542
+    },
+    {
+      "key": "vssl",
+      "label": "VSSL",
+      "price": 819
+    },
+    {
+      "key": "sonosPort",
+      "label": "Sonos Port",
+      "price": 919
+    },
+    {
+      "key": "sonosAmp",
+      "label": "Sonos Amp",
+      "price": 1323
+    },
+    {
+      "key": "additionalSpeakers",
+      "label": "Additional Speakers",
+      "price": 717
+    },
+    {
+      "key": "inWallMountSpeaker",
+      "label": "In-Wall Mount Speaker",
+      "price": 717
+    },
+    {
+      "key": "inGroundSub",
+      "label": "In-Ground Sub",
+      "price": 2214
+    },
+    {
+      "key": "hardscapeSub",
+      "label": "Hardscape Sub",
+      "price": 2512
+    },
+    {
+      "key": "zones3",
+      "label": "3 Zones",
+      "price": 2430.71
+    },
+    {
+      "key": "zones6",
+      "label": "6 Zones",
+      "price": 4961.42
+    },
+    {
+      "key": "audioExtraCosts",
+      "label": "Extra Costs",
+      "price": 1
+    }
   ],
   "tiers": {
     "premiumRgb": {
       "label": "Premium-RGB",
       "multiplier": 1.788,
-      "appliesTo": ["fixtures", "coreLights", "peakLights", "transformers", "stripLighting", "bistroLighting", "moonLights", "transformer300", "transformer600"]
+      "appliesTo": [
+        "fixtures",
+        "coreLights",
+        "peakLights",
+        "transformers",
+        "stripLighting",
+        "bistroLighting",
+        "moonLights",
+        "transformer300",
+        "transformer600"
+      ]
     },
     "premium": {
       "label": "Premium",
@@ -42,16 +187,28 @@
     "essential": {
       "label": "Essential",
       "multiplier": 0.894,
-      "appliesTo": ["fixtures", "peakLights", "moonLights"]
+      "appliesTo": [
+        "fixtures",
+        "peakLights",
+        "moonLights"
+      ]
     }
   },
   "formulas": {
     "markupMultiplier": 1.03,
     "protectionPlanPerFixture": 19.79,
     "financingMonths": 12,
-    "modularUpgradeKeys": ["fixtures", "peakLights", "moonLights"],
+    "modularUpgradeKeys": [
+      "fixtures",
+      "peakLights",
+      "moonLights"
+    ],
     "fixtureCountKeys": {
-      "direct": ["fixtures", "peakLights", "moonLights"],
+      "direct": [
+        "fixtures",
+        "peakLights",
+        "moonLights"
+      ],
       "perUnit": {
         "stripLighting": 4.4,
         "bistroLighting": 14.6
